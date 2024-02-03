@@ -1,69 +1,88 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="exit.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
-
-
-  <div class="container">
-    
-    
-    <div class="title">Check out</div>
-    <div class="content">
-      <form action="#">
-        <div class="user-details">
-          <div class="input-box">
-            <span class="details">Full Name<sup>*</sup></span>
-            <input type="text" name="name" value ="" placeholder="Enter your name" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Vehicle no.<sup>*</sup></span>
-            <input type="text" name="vehicleno"value ="" placeholder="Enter vehicle number" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Email<sup>*</sup></span>
-            <input type="text" name="email"value ="" placeholder="Enter your email" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Phone Number<sup>*</sup></span>
-            <input type="text" name="phonenumber" value ="" placeholder="Enter your number" required>
-          </div>
-          <div class="input-box">
-            <span class="details">Time<sup>*</sup></span>
-            <select name="time" required>
-              <option selected hidden value="">Select Time</option>
-              <option value="1Hr">1 Hr</option>
-              <option value="2Hr">2 Hr</option>
-              <option value="3Hr">3 Hr</option>
-              <option value="4Hr">4 Hr</option>
-              <option value="5Hr">5 Hr</option>
-              <option value="6Hr">6 Hr</option>
-            </select>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="exit.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/exit form.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Check out</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name<sup>*</sup></span>
+              <input
+                type="text"
+                name="name"
+                value=""
+                placeholder="Enter your name"
+                required
+              />
             </div>
-        </div>
-        <h5>*Note:-We charge on hourly basis   <br>charges:- 50₹/hr</h5>
-       
-        <div class="button">
-          <a href="fee.html"input type="submit" name ="delete_entry" value="Check Out"> check out</a>
-          
-            
-            
-            
-          
-        </div>
-        
-      </form>
-      
-    </div>
-    <div class="button1" >
-    <a href="index.php"><button>Back</button></a>
-  </div>
-  </div>
-  
-  
+            <div class="input-box">
+              <span class="details">Vehicle no.<sup>*</sup></span>
+              <input
+                type="text"
+                name="vehicleno"
+                value=""
+                placeholder="Enter vehicle number"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Email<sup>*</sup></span>
+              <input
+                type="text"
+                name="email"
+                value=""
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number<sup>*</sup></span>
+              <input
+                type="text"
+                name="phonenumber"
+                value=""
+                placeholder="Enter your number"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Time<sup>*</sup></span>
+              <select name="time" required>
+                <option selected hidden value="">Select Time</option>
+                <option value="1Hr">1 Hr</option>
+                <option value="2Hr">2 Hr</option>
+                <option value="3Hr">3 Hr</option>
+                <option value="4Hr">4 Hr</option>
+                <option value="5Hr">5 Hr</option>
+                <option value="6Hr">6 Hr</option>
+              </select>
+            </div>
+          </div>
+          <h5>*Note:-We charge on hourly basis <br />charges:- 50₹/hr</h5>
 
-</body>
+          <div class="button">
+            <a
+              href="fee.html"
+              input
+              type="submit"
+              name="delete_entry"
+              value="Check Out"
+            >
+              check out</a
+            >
+          </div>
+        </form>
+      </div>
+      <div class="button1">
+        <a href="index.html"><button>Back</button></a>
+      </div>
+    </div>
+  </body>
 </html>
